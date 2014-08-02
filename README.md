@@ -12,6 +12,12 @@ In your ~/.vimrc
 Plugin 'while1eq1/vim-monokai-black'
 ```
 
+under `call vundle#end()`
+
+```
+colorscheme monokai
+```
+
 Then in vim
 
 ```

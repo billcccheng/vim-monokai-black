@@ -1,14 +1,24 @@
-# vim-monokai
+# vim-monokai-black
 
-Monokai color scheme for Vim converted with [coloration](http://coloration.sickill.net) from Textmate theme with the same name.
+Monokai color scheme with black background for Vim converted with [coloration](http://coloration.sickill.net) from Textmate theme with the same name.
 
-## Screenshots
-
-![Monokai in Vim](https://github.com/downloads/sickill/vim-monokai/vim-monokai.png)
 
 ## Installation
 
-Put `monokai.vim` file in your `~/.vim/colors/` directory and add the following line to your `~/.vimrc`:
+### Using vundle:
 
-    syntax enable
-    colorscheme monokai
+In your ~/.vimrc
+```
+Plugin 'while1eq1/vim-monokai-black'
+```
+
+Then in vim
+
+```
+:source %
+:PluginInstall
+```
+
+## Screenshots
+
+![Monokai in Vim](https://raw.githubusercontent.com/wiki/while1eq1/vim-monokai-black/screenshots/screenshot_small.png)
